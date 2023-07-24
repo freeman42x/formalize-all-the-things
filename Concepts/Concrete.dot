@@ -1,0 +1,3 @@
+digraph G {
+  "Physics" -> "Quantum Mechanics" [label="requires"];
+}
