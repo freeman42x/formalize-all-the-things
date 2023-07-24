@@ -1,6 +1,7 @@
 Tasks:
 
 * create .tree format VSCode extension
+    * format specification - indentation - tabs or spaces for tree level semantics
     * render as diagram like the Graphviz extension
     * expand/collapse
     * pretty coloring
