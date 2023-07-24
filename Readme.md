@@ -2,15 +2,18 @@
 
 Use case is for creating Ethical AGI and reaching technological singularity in a safe way.
 
-Proofs about
-
-* General Intelligence
-* Narow Intelligence
-* Formalising Ethics
-* etc.
-
 Streaming development live on Twitch:
 
 https://www.twitch.tv/freeman42x
 
 Ask me any questions, I love helping <3
+
+---
+
+To visualize the Concepts .dot files install a .dot file viewer for your editor.
+
+For Visual Studio Code install:
+
+https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz
+
+With .dot file opened use Ctrl + K, V to open the visualizer.
