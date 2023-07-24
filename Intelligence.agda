@@ -1,15 +1,20 @@
 module Intelligence where
 
-data Evidence : Set where
+open import Data.Nat
 
-{- subset of reality -}
-data System : Set where = Agent Evidence | NonAgent
+{- Data used to store information of arbitrary size / shape -}
+data Data : Set where
 
-{-  probability of satisfying any goal constraints in any context   -}
-generalIntelligence : (system : System) → Probability
-generalIntelligence system = {!0!}
+{- subset of reality with associated data describing it -}
+data System : Set where
+  Agent : System
+  NonAgent : System
 
+F : Set
+F = Data → System
 
+generalIntelligence : System → ℕ
+generalIntelligence system = {!   !}
 
 {-
     Formalise:
@@ -20,6 +25,7 @@ generalIntelligence system = {!0!}
     4.) Evidence
     5.) Truth
     6.) Decisions
+    7.) Consciusness - oh god why...
 
     More proofs:
 
@@ -60,3 +66,9 @@ data Goal : Set where
 
 {- Odds of an event happening -}
 data Probability : Set where
+
+{- TODO -}
+data Information : Set where
+
+{- TODO -}
+data Evidence : Set where
