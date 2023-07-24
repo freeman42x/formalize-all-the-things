@@ -17,35 +17,6 @@ generalIntelligence : System → ℕ
 generalIntelligence system = {!   !}
 
 {-
-    Formalise:
-
-    1.) General Intelligence
-    2.) Narrow Intelligence
-    3.) Ethics
-    4.) Evidence
-    5.) Truth
-    6.) Decisions
-    7.) Consciusness - oh god why...
-
-    More proofs:
-
-    1.) prove that a less skilled agent is less likely to understand and agree with a more skilled agent
-    2.) prove that agents with high general intelligence are more likely to be nice
-
-    Reinstall VSCode extensions:
-
-    Live Share
-    agda-mode
-    agda-syntax
-    aw-watcher-vscode
-    nix
-    TODO Hightlight
-    Todo Tree
-    YAML
-    
--}
-
-{-
     TODO the context needs to be abstracted away from the laws of the reality it is in
     -- the semantics need to function in any type of reality irregardless of physics
     -- senses - inputs (consciousness O.O)
