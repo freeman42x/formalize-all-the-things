@@ -1,37 +1,25 @@
 Tasks:
 
-* create .tree format VSCode extension
-    * format specification - indentation - tabs or spaces for tree level semantics
-    * render as diagram like the Graphviz extension
-    * expand/collapse
-    * pretty coloring
-* dependency diagram for most abstract reality concepts
-* assign tasks to volunteers
 * split code to files
+* assign tasks to volunteers
 * map enough concepts to be useful for accelerating education by providing minimum pathways to learning a concept
 * theory of everything - unify Relativity with Quantum Mechanics (oh the headache)
+* formalise
+    * abstract
+        * Ethics
+        * General Intelligence
+        * Narrow Intelligence
 
-Formalise:
+        * Probability
+        * Statistics
+        * Evidence
+        * Truth
+        * List possible actions
+        * Decisions
+        * Consciousness - oh god why...
 
-* abstract
-
-    * Ethics
-    * General Intelligence
-    * Narrow Intelligence
-
-    * Probability
-    * Statistics
-    * Evidence
-    * Truth
-    * List possible actions
-    * Decisions
-    * Consciousness - oh god why...
-
-* concrete
-
-    * physics
-
-        * quantum
+        * Thoughts
+        * Feelings
 
 Fun proofs:
 
