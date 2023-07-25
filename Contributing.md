@@ -27,7 +27,7 @@
 * theory of everything - unify Relativity with Quantum Mechanics (oh the headache)
 * assign tasks to volunteers
 
-## fun proofs
+## Fun proofs
 
 * the more generally intelligent an agent is the easier it is for it to correctly model another agents
 * prove that agents with high general intelligence are more likely to be nice
