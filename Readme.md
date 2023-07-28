@@ -3,7 +3,7 @@
 The most important being:
 
   * formalisation
-  * autoamation
+  * automation
   * ethics
   * intelligence
     * super
