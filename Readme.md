@@ -1,4 +1,14 @@
-# Formalising General Intelligence
+# Formalise all the things
+
+The most important being:
+
+  * formalisation
+  * autoamation
+  * ethics
+  * intelligence
+    * super
+    * general
+    * narrow
 
 ## How is this useful?
 
