@@ -1,7 +1,5 @@
 digraph G {
 
-  rankdir=TB;
-
   /*
     TODO
     A weird concept related to freedom
@@ -13,10 +11,8 @@ digraph G {
   "Decision";
 
   /*
-  
     Intelligence is a metric that measures the capability of an agent
     to make optimal decisions in relation to its goals
-  
   */
   "Intelligence" [weight=1];
 
@@ -31,9 +27,8 @@ digraph G {
 
   "Input / Empirical Data";
 
-  "Evidence" -> "Input / Empirical Data";
-
-  "NonEvidence" -> "Input / Empirical Data";
+  // Information that has no correlation with the context
+  "NonEvidence" -> "Non-Scientific Methods";
 
   // Information that comes from context
   "Evidence" [weight=1];
@@ -45,6 +40,12 @@ digraph G {
   "Decision" -> "Choices";
 
   "Decision" -> "Evidence";
+
+  "Evidence" -> "Scientific Methods";
+
+  "Scientific Methods" -> "Input / Empirical Data";
+
+  "Non-Scientific Methods" -> "Input / Empirical Data";
 
   /*
     TODO context needs to be abstracted away from the Laws of Physics
@@ -62,8 +63,6 @@ digraph G {
   "Context";
 
   "Choices" -> "Context";
-
-  "Evidence" -> "Statistics";
 
   "Input / Empirical Data" -> "Context";
 }
