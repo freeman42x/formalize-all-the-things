@@ -1,14 +1,27 @@
 digraph G {
 
-  // TODO
-  // A weird concept related to freedom
-  // that humans think they can do
+/*
+
+  TODO
+  A weird concept related to freedom
+  that humans think they can do
+
+  Any agent that can
+    make optimal decisions in relation to its goals
+  is undistinguishable from a maximally intelligent agent
+
+*/
+
   "Decision";
 
+  // All possible decisions you could make in current context
   "Choices"
 
-  "Ethics"
+  // Evolutionarily evolved decision constraint
+  // that optimizes for good (<- TODO) of systems of agents
+  "Ethics";
 
+  // information that correlates to 
   "Evidence"
 
   "Decision" -> "Choices";
@@ -16,10 +29,6 @@ digraph G {
   "Decision" -> "Ethics";
 
   "Decision" -> "Evidence";
-
-  // evolutionarily evolved decision constraint
-  // that optimizes for good of systems of agents
-  "Ethics";
 
   "Choices" -> "Context";
 
