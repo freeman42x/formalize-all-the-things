@@ -1,18 +1,24 @@
 digraph G {
 
+  rankdir=TB;
+
   /*
     TODO
     A weird concept related to freedom
     that humans think they can do
 
-    Any agent that can
-      make optimal decisions in relation to its goals
-    is undistinguishable from a maximally intelligent agent
-
     Decision ties into Systems Theory concepts
     could use to more easily explain it
   */
   "Decision";
+
+  /*
+  
+    Intelligence is a metric that measures the capability of an agent
+    to make optimal decisions in relation to its goals
+  
+  */
+  "Intelligence" [weight=1];
 
   /*
     Decision making constraint
@@ -23,8 +29,18 @@ digraph G {
   // All possible decisions you could make in current context
   "Choices" [weight=1];
 
-  // information that comes from context
+  // Evidence or NonEvidence are Inputs
+
+  // Information that comes from context
   "Evidence" [weight=1];
+
+  "Decision" -> "Intelligence";
+
+  "Decision" -> "Ethics";
+
+  "Decision" -> "Choices";
+
+  "Decision" -> "Evidence";
 
   /*
     TODO context needs to be abstracted away from the Laws of Physics
@@ -41,19 +57,11 @@ digraph G {
   */
   "Context";
 
-  "Decision" -> "Choices";
-
-  "Decision" -> "Ethics";
-
-  "Decision" -> "Evidence";
-
-  "Evidence" -> "Context";
-
   "Choices" -> "Context";
 
   "Evidence" -> "Statistics";
 
   "Evidence" -> "Empirical Data";
 
-  "Statistics" -> "Probability";
+  "Empirical Data" -> "Context";
 }
