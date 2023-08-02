@@ -27,28 +27,8 @@ digraph G {
 
   "Input / Empirical Data";
 
-  // Information that has no correlation with the context
-  "NonEvidence" -> "Non-Scientific Methods";
-
   // Information that comes from context
   "Evidence" [weight=1];
-
-  "Decision" -> "Intelligence";
-
-  "Decision" -> "Ethics";
-
-  "Decision" -> "Choices";
-
-  "Decision" -> "Evidence";
-
-  "Evidence" -> "Scientific Methods";
-
-  "Scientific Methods" -> "Input / Empirical Data";
-
-  "Non-Scientific Methods" -> "Input / Empirical Data";
-
-  // via Theory of Evolution
-  "Intelligence" -> "Evolution"
 
   /*
     TODO context needs to be abstracted away from the Laws of Physics
@@ -65,7 +45,27 @@ digraph G {
   */
   "Context";
 
-  "Choices" -> "Context";
+  "Intelligence" -> "Decision";
+  "Ethics" -> "Decision";
+  "Choices" -> "Decision";
+  "Evidence" -> "Decision";
 
-  "Input / Empirical Data" -> "Context";
+  // Information that has no correlation with the context
+  "Non-Scientific Methods" -> "NonEvidence";
+
+  "Scientific Methods" -> "Evidence";
+
+  "Input / Empirical Data" -> "Scientific Methods";
+
+  "Input / Empirical Data" -> "Non-Scientific Methods";
+
+  // via Theory of Evolution
+  "Evolution" -> "Intelligence";
+
+  "Engineering" -> "Intelligence";
+
+  "Context" -> "Choices";
+
+  "Context" -> "Input / Empirical Data";
+
 }
