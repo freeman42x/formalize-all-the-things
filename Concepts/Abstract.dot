@@ -1,8 +1,31 @@
 digraph G {
-  "Decisions" -> "Choices";
-  "Decisions" -> "Ethics";
-  "Decisions" -> "Relevant Evidence";
+
+  // TODO
+  // A weird concept related to freedom
+  // that humans think they can do
+  "Decision";
+
+  "Choices"
+
+  "Ethics"
+
+  "Evidence"
+
+  "Decision" -> "Choices";
+
+  "Decision" -> "Ethics";
+
+  "Decision" -> "Evidence";
+
+  // evolutionarily evolved decision constraint
+  // that optimizes for good of systems of agents
+  "Ethics";
+
   "Choices" -> "Context";
-  "Relevant Evidence" -> "Statistics";
+
+  "Evidence" -> "Statistics";
+
+  "Evidence" -> "Empirical Data";
+
   "Statistics" -> "Probability";
 }
