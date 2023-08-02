@@ -1,7 +1,6 @@
 digraph G {
 
-/*
-
+  /*
   TODO
   A weird concept related to freedom
   that humans think they can do
@@ -9,9 +8,7 @@ digraph G {
   Any agent that can
     make optimal decisions in relation to its goals
   is undistinguishable from a maximally intelligent agent
-
-*/
-
+  */
   "Decision";
 
   // All possible decisions you could make in current context
@@ -21,8 +18,23 @@ digraph G {
   // that optimizes for good (<- TODO) of systems of agents
   "Ethics";
 
-  // information that correlates to 
+  // information that comes from context
   "Evidence"
+
+  /*
+    TODO context needs to be abstracted away from the Laws of Physics
+    -- the semantics need to function in any type of reality irregardless of physics
+    -- senses - inputs (consciousness O.O)
+    -- example contexts:
+        - being somewhere in physical reality
+        - virtual context - being an agent inside of a virtual world like a game
+        - simulation context - we ourselves could be in a simulation
+                            - mostly irrelevant for daily lives but fu -}
+  {-  spacetime coordinate
+      - 3D location
+      - time             -}
+  */
+  "Context";
 
   "Decision" -> "Choices";
 
