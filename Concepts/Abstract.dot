@@ -1,8 +1,8 @@
 digraph G {
-  "Decision" -> "Choices";
+  "Decisions" -> "Choices";
+  "Decisions" -> "Ethics";
+  "Decisions" -> "Relevant Evidence";
   "Choices" -> "Context";
-  "Decision" -> "Ethics";
-  "Decision" -> "Relevant Evidence";
   "Relevant Evidence" -> "Statistics";
   "Statistics" -> "Probability";
 }
