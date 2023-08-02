@@ -29,7 +29,11 @@ digraph G {
   // All possible decisions you could make in current context
   "Choices" [weight=1];
 
-  // Evidence or NonEvidence are Inputs
+  "Input / Empirical Data";
+
+  "Evidence" -> "Input / Empirical Data";
+
+  "NonEvidence" -> "Input / Empirical Data";
 
   // Information that comes from context
   "Evidence" [weight=1];
@@ -61,7 +65,5 @@ digraph G {
 
   "Evidence" -> "Statistics";
 
-  "Evidence" -> "Empirical Data";
-
-  "Empirical Data" -> "Context";
+  "Input / Empirical Data" -> "Context";
 }
