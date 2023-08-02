@@ -47,6 +47,9 @@ digraph G {
 
   "Non-Scientific Methods" -> "Input / Empirical Data";
 
+  // via Theory of Evolution
+  "Intelligence" -> "Evolution"
+
   /*
     TODO context needs to be abstracted away from the Laws of Physics
     -- the semantics need to function in any type of reality irregardless of physics
