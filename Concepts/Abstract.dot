@@ -8,6 +8,9 @@ digraph G {
   Any agent that can
     make optimal decisions in relation to its goals
   is undistinguishable from a maximally intelligent agent
+
+  Decision ties into Systems Theory concepts
+  could use to more easily explain it
   */
   "Decision";
 
