@@ -11,14 +11,14 @@ digraph G {
   "Decision";
 
   /*
-    Intelligence is a metric that measures the capability of an agent
-    to make optimal decisions in relation to its goals
+    Intelligence is a metric associated to an agent that measures its capability of achieving its goals.
+    A metric that can be used for intelligence is the probability of the agent to achieve the goals it set its mind to.
   */
   "Intelligence" [weight=1];
 
   /*
-    Decision making constraint
-    that optimizes for good (<- TODO) of systems of agents
+    Ethics is a society level goal that is dependent on the goals of individual agents
+    Ethics maximizes the wellbeing of the individuals in the group
   */
   "Ethics" [weight=1];
 
